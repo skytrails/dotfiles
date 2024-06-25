@@ -1,0 +1,29 @@
+{
+	"git.addGBlameToBufferVar": false,
+	"git.addGBlameToVirtualText": false,
+	"git.changedSign.text": "◆",
+	"git.addedSign.text": "+",
+	"git.addedSign.hlGroup": "DiffAdd",
+	"git.removedSign.hlGroup": "DiffDelete",
+	"git.changedSign.hlGroup": "DiffChange",
+	"git.enableGlobalStatus": true,
+	//"outline.showLineNumber": true,
+	"clangd.fallbackFlags": [],
+	"suggest.noselect": true,
+	"suggest.enablePreselect": true,
+	"clangd.arguments":[
+		"--compile-commands-dir=build",
+		"--fallback-style=none"
+	],
+	"coc.preferences.formatOnType": true,
+	"clangd.trace.file": "true",
+	"explorer.focus": true,
+	"explorer.file.reveal.auto": true,
+	"explorer.icon.enableNerdfont": false,
+	"explorer.toggle": true,
+	"snippets.ultisnips.directories": ["UltiSnips", "snippets"],
+	"snippets.extends": {
+		"cpp": ["c", "cpp"]
+	},
+	"coc.preferences.extensionUpdateCheck": "daily",
+}
